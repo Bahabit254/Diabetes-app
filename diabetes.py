@@ -30,7 +30,7 @@ def main():
     with col_2:
         Glucose=st.number_input('Glucose_level',min_value=0.00,max_value=300.0)
 
-        BloodPressure=st.number_input('Blood pressure',min_value=50,max_value=300)
+        BloodPressure=st.number_input('Blood pressure',min_value=0,max_value=300)
 
         SkinThickness=st.number_input('Triceps skinfold thickness',min_value=0.00,max_value=150.00)
 
