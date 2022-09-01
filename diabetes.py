@@ -12,7 +12,7 @@ import sklearn
 def main():
     st.title('Diabetes prediction using Extra Trees')
     
-    filename='extc.pkl'
+    filename='xtc.pkl'
     loaded_model=joblib.load(filename)
     
     
